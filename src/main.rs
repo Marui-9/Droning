@@ -1,6 +1,7 @@
 mod message;
 mod fragment;
 mod routing;
+mod nodes_api;
 
 use crate::message::*;
 
