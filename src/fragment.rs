@@ -1,6 +1,6 @@
 use crate::routing::SourceRoutingHeader;
 
-pub struct Packet{ //fragment defined as entity exchanged by the drones.
+pub struct Packet { //fragment defined as entity exchanged by the drones.
     pt: PacketType,
     source_routing_header: SourceRoutingHeader,
     session_id: u64
